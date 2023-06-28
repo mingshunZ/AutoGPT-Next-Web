@@ -11,7 +11,7 @@ const resetters: (() => void)[] = [];
 const initialAgentState = {
   agent: null,
   isAgentStopped: true,
-  isWebSearchEnabled: false,
+  isWebSearchEnabled: true,
   isAgentPaused: undefined,
 };
 
